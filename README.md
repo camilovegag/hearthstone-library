@@ -1,1 +1,3 @@
-# hearthstone-library-clone
+# hearthstone-card-library
+
+
