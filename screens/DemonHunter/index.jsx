@@ -8,7 +8,7 @@ export const DemonHunter = ({ navigation }) => {
   useEffect(() => {
     async function fetchData() {
       await axios(
-        "https://us.api.blizzard.com/hearthstone/cards?locale=en_US&set=standard&class=demonhunter&pageSize=92&sort=manaCost%3Aasc&access_token=UScs8hhS5oMQ04YnFZ7LWu0EZBfNDS8Yn3"
+        "https://us.api.blizzard.com/hearthstone/cards?locale=en_US&set=standard&class=demonhunter&pageSize=92&sort=manaCost%3Aasc&access_token=USTspIGxbiFFRQ7QLQmOAwM84KmrY80d0k"
       )
         .then((response) => {
           if (response.status === 200) return response.data.cards;
